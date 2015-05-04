@@ -1,0 +1,201 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/functionPad"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <LinearLayout
+        android:id="@+id/toprow"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".12">
+
+        <Button
+            android:id="@+id/buttonBasic"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            android:text="@string/btnBasic"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".12">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:maxLines="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="0"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".12">
+
+        <Button
+            android:id="@+id/buttonClear"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            android:text="@string/buttonClear"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/Clear"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".25" />
+
+        <Button
+            android:id="@+id/buttonDelete"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            android:text="@string/buttonDel"
+            android:textSize="25sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".12">
+
+        <Button
+            android:id="@+id/buttonSine"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            android:text="@string/buttonSine"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/buttonCosine"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            android:text="@string/buttonCosine"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/buttonTangent"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            android:text="@string/buttonTangent"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/buttonImaginary"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            android:text="@string/buttonImaginary"
+            android:textSize="25sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".12">
+
+        <Button
+            android:id="@+id/buttonNaturalLog"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            android:text="@string/buttonNaturalLog"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/buttonLog"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            android:text="@string/buttonLog"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/buttonPi"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            android:text="@string/buttonPi"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/buttonExponential"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            android:text="@string/buttonExponential"
+            android:textSize="25sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row6"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".12"
+        android:baselineAligned="false">
+
+
+        <Button
+            android:id="@+id/buttonPercentage"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            android:text="@string/buttonPercentage"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/buttonFactorial"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            android:text="@string/buttonFactorial"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/buttonSquareRoot"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            android:text="@string/buttonSquareRoot"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/buttonE"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".25"
+            android:text="@string/buttonE"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
